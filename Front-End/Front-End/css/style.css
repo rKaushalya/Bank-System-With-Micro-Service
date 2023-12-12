@@ -3,7 +3,7 @@
 }
 header{
   background: #0959c9;
-  height: 70px;
+  height: 4em;
   position: fixed;
   width: 100vw;
   z-index: 1;
@@ -24,4 +24,29 @@ header ul>li>a{
   margin-left: 5px;
   text-decoration: none;
   color: white;
+}
+#homeContent{
+  position: relative;
+  top: 5em;
+}
+#homeDiv1{
+  height: 70vh;
+  background-color: #2761a3;
+}
+#homeDiv2{
+  height: 70vh;
+  background-color: #1f87b5;
+}
+footer{
+  background-color: #2b2f32;
+  height: 10em;
+  position: relative;
+  top: 6em;
+}
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  background: #1c4f93;
+  border-radius: 6px;
 }
