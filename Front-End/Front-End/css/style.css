@@ -50,3 +50,24 @@ footer{
   background: #1c4f93;
   border-radius: 6px;
 }
+#homeDiv1>h1{
+  text-align: center;
+  font-size: 2em;
+  padding-top: 1em;
+  color: #dc9207;
+}
+#homeDiv1 p{
+  color: #cccaca;
+  text-align: center;
+  padding-left: 10px;
+}
+.balanceTitle{
+  color: #dc9207 !important;
+}
+.fund{
+  color: white !important;
+}
+#curve_chart{
+  padding-top: 2em;
+  padding-left: 3em;
+}
