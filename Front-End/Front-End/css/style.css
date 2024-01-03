@@ -82,3 +82,47 @@ footer p a{
   color: white;
   text-decoration: none;
 }
+
+/*my money content*/
+
+#MyMoneyContent{
+  position: relative;
+  top: 5em;
+}
+#PrimaryAcc div{
+  height: 12em;
+  border-radius: 10px;
+  background-color: #bacbe6;
+  cursor: pointer;
+}
+#savingAcc div{
+  height: 12em;
+  border-radius: 10px;
+  background-color: #6edff6;
+  cursor: pointer;
+}
+#savingAcc div h6{
+  border-bottom: 1px solid #2b2f32;
+  padding-bottom: 30px;
+  display: inline-block;
+}
+#PrimaryAcc div h6{
+  border-bottom: 1px solid #2b2f32;
+  padding-bottom: 30px;
+  display: inline-block;
+}
+#addAcc div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12em;
+  border-radius: 10px;
+  background-color: #6edff6;
+  cursor: pointer;
+}
+#addAcc div i{
+  padding-right: 5px;
+}
+#MyMoneyContent .row>div div h4{
+  padding-top: 10px;
+}
