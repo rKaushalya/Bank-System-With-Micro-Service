@@ -52,7 +52,7 @@
   </div>
 </main>-->
 
-<main id="MyMoneyContent">
+<!--<main id="MyMoneyContent">
   <div class="container text-center">
     <div class="row">
       <div id="PrimaryAcc" class="col">
@@ -74,6 +74,51 @@
       <div id="addAcc" class="col">
         <div>
           <h3><i class="fa fa-circle-plus"></i>Add Account</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>-->
+
+<main id="paymentContent">
+  <div class="container">
+    <div class="row">
+
+      <div class="col">
+
+        <div class="dropdown text-center">
+          <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Select Account
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Primary Account</a></li>
+            <li><a class="dropdown-item" href="#">Saving Account</a></li>
+          </ul>
+        </div>
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Account Number / Phone Number</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Amount</label>
+            <input type="number" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="col text-center">
+        <div id="displayAcc">
+          <h4>Primary Account</h4>
+          <h6>A/C : 8012256987</h6>
+          <p>Available Balance</p>
+          <h5>LKR <span>0000</span></h5>
         </div>
       </div>
     </div>
