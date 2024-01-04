@@ -1,0 +1,46 @@
+*{
+  font-family: myFirstFont;
+}
+header{
+  background: #0959c9;
+  height: 4em;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+header h1{
+  left: 120px;
+  font-size: 24px;
+}
+#login{
+  position: relative;
+  top: 4em;
+  height: 91vh;
+  background: url("../img/360_F_417777825_v7o8RvkQhxpZkE0ZBD4xwzri5hGFHkO3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+form{
+  width: 20em;
+}
+form label{
+  color: white;
+}
+form h2{
+  color: #c7c0c0;
+}
+form button{
+  width: 10em;
+}
+#background{
+  position: relative;
+  top: 8em;
+  height: 50vh;
+  width: 25em;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(190, 180, 180, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}

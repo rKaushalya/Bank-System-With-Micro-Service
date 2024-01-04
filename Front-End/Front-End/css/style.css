@@ -149,6 +149,10 @@ footer p a{
   cursor: pointer;
   box-shadow: 5px 5px 8px #4d5154;
 }
+#displayAcc:hover{
+  background-color: #6edff6;
+  transition: 1s;
+}
 #displayAcc>h4{
   padding-top: 20px;
 }
